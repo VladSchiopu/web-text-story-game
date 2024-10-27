@@ -1,0 +1,1665 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Story Game</title>
+        <link rel="stylesheet" href="./static/game.css">
+    </head>
+    <body id = "body">
+        <div onclick = play() id ="play">Play</div>
+        <div onclick = endings() id = "ends">Endings</div>
+        
+       <div onclick = bak() id = "bak">Back</div>
+        
+        
+        <div onclick = menu() id = "menu">Menu</div>
+        
+        <div class="principal" id ="start">
+         <div class="poveste" id = "p">You are on street and you go past the school. What do you want to do?</div>
+<p onclick = layer("start","1") class="unu">Go inside</p> 
+<p onclick = layer("start","2") class="doi">Burn it</p>
+<p onclick = layer("start","3") class="trei">Run until someone sees you are missing school</p>    
+      </div>
+      
+      
+      
+      <div class="principal" id ="3">
+         <div class="poveste">You go inside a pub. There are a lot of drunk guys, but you find a pretty girl</div>
+<p onclick = layer("3","31") class="unu"> Talk with the girl </p> 
+<p onclick = layer("3","32") class="doi">Talk with the drunk guys</p>
+<p onclick = layer("3","33") class="trei">Order drink</p>    </div>
+      
+      
+      
+      <div class="principal" id ="31">
+         <div class="poveste">She ignores you. She is looking at an old guy who wears a golden watch</div> <p class="unu"> Talk with the girl </p> 
+<p onclick = layer("31","32") class="doi">Talk with the drunk guys</p>
+<p onclick = layer("31","33") class="trei">Order drink</p>    </div>
+      
+      
+      
+      <div class="principal" id ="33">
+         <div class="poveste">What kind of drink?</div>
+<p onclick = layer("33","331") class="unu">Beer</p> 
+<p onclick = layer("33","332") class="doi">Wine</p>
+<p onclick = layer("33","333") class="trei">Milk</p>    </div>
+      
+      
+      
+      <div class="principal" id ="331">
+         <div class="poveste">How much?</div>
+<p onclick = layer("331","s37") class="unu"> TONS! </p> 
+<p onclick = layer("331","s37") class="doi">15 barrels</p>
+<p onclick = layer("331","s37") class="trei">All of it</p>    </div>
+      
+      
+      
+      
+      <div class="principal" id ="332">
+         <div class="poveste">Before you can drink some of the drunk guys scream "Su naht retteb era uoy kniht uoy?" then took out some knifes. Which armor do you choose?</div>
+<p onclick = layer("332","s32") class="unu"> Iron armor </p> 
+<p onclick = layer("332","s32") class="doi">Diamond armor</p>
+<p onclick = layer("332","323") class="trei">Plot armor</p>    </div>
+
+
+
+
+<div class="principal" id ="333">
+         <div class="poveste">Before you can drink some of the drunk guys scream "knird ybab ruoy htiw tuo teg!" then took out some knifes. Which armor do you choose?</div>
+<p onclick = layer("333","s32") class="unu"> Iron armor </p> 
+<p onclick = layer("333","s32") class="doi">Diamond armor</p>
+<p onclick = layer("333","323") class="trei">Plot armor</p>    </div>
+      
+      
+      
+      
+      
+      <div class="principal" id ="32">
+         <div class="poveste">They don't seem like wanting to talk, they scream "terces a si gnidne tsal eht!" then took out some knifes. Which armor do you choose?</div>
+<p onclick = layer("32","s32") class="unu"> Iron armor </p> 
+<p onclick = layer("32","s32") class="doi">Diamond armor</p>
+<p onclick = layer("32","323") class="trei">Plot armor</p>    </div>
+      
+      
+      <div class="principal" id ="323">
+         <div class="poveste">You jump right when they were charging at you with the knifes letting them slaughter each other. The girl looks at you impressed</div>
+<p onclick = layer("323","s33") class="unu">Victory dance </p> 
+<p onclick = layer("323","3232") class="doi">Talk to her</p>
+<p onclick = layer("323","s38") class="trei">Steal their unfinished drinks</p>    </div>
+      
+      
+      
+      
+        <div class="principal" id ="3232">
+         <div class="poveste">I saw your skills. I heard that the old rich guy who just left has a giant treasure in his house. I need a partner to get it. Are you in? </div>
+<p onclick = layer("3232","s36") class="unu">Let's gooooooo</p> 
+<p onclick = layer("3232","32321") class="doi">Thanks for the tip, but i don't need you as a partner, i have superb skills!</p>
+<p onclick = layer("3232","s9alt1") class="trei">Admit you have no skills, do the poker face and go home</p>    </div>
+       
+       
+       
+       
+       <div class="principal" id ="32321">
+         <div class="poveste">You arrive at his home. It is full of surveillance cameras and aggressive dogs. The fence is huge. How will you get in?</div>
+<p onclick = layer("32321","323211") class="unu">Dig a tunnel</p> 
+<p onclick = layer("32321","s34") class="doi">Pretend to be a lost relative</p>
+<p onclick = layer("32321","s35") class="trei">Parkour over everything</p>    </div>
+       
+       
+       
+       
+       <div class="principal" id ="3232113">
+         <div class="poveste">Surprisingly it works. You get on the top of a tower. The widow is open so you enter through it. Inside is a locked safe. </div>
+<p onclick = layer("3232113","s45") class="unu">Try to crack it</p> 
+<p onclick = layer("3232113","s46") class="doi">Take it with you</p>
+<p onclick = layer("3232113","s45alt") class="trei">Smash it with a pipe</p>    </div>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       <div class="principal" id ="323211">
+         <div class="poveste">After weeks of digging you fall into a cave with winged eyes. One gray winged eye starts following you </div>
+<p onclick = layer("323211","3232111") class="unu">Take it with you and explore the caves </p> 
+<p onclick = layer("323211","3232111alt") class="doi">Leave it there and go to explore the caves</p>
+<p onclick = layer("323211","3232113") class="trei">Kill them to make a wing costume, and try to fly over the fence</p>    </div>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       <div class="principal" id ="3232111">
+         <div class="poveste">At the end of a passage you find a white room. The door is closing before you. You hear a robot voice "THIS IS A GAME, AVOID THE LASERS AND YOU CAN PASS" </div>
+<p onclick = layer("3232111","32321111") class="unu">Activate ninja instinct </p> 
+<p onclick = layer("3232111","s39") class="doi">Duck</p>
+<p onclick = layer("3232111","32321111alt") class="trei">Stay still</p>    </div>
+       
+       
+       
+       <div class="principal" id ="3232111alt">
+         <div class="poveste">At the end of a passage you find a white room. The door is closing before you. You hear a robot voice "THIS IS A GAME, AVOID THE LASERS AND YOU CAN PASS"</div>
+<p onclick = layer("3232111alt","s39alt") class="unu">Use your new pet to protect you </p> 
+<p onclick = layer("3232111alt","s39alt1") class="doi">Flirt with the robot</p>
+<p onclick = layer("3232111alt","32321111alt") class="trei">Stay still</p>    </div>
+       
+       
+       
+       
+       <div class="principal" id ="32321111">
+         <div class="poveste">You manage to dodge all the lasers and a new door opens. You find a giant room full of gold and blocks and diamonds. You can't transport them. </div>
+<p onclick = layer("32321111","323211111") class="unu">Assamble an army of winged eyes to transport them</p> 
+<p onclick = layer("32321111","s42") class="doi">Leave them and go home, but take an eye as a pet</p>
+<p onclick = layer("32321111","s40") class="trei">Take the biggest transportable diamond and go home</p>    </div>
+       
+       
+       
+       <div class="principal" id ="323211111">
+         <div class="poveste">They obey you. They transport 2000kg of gold and diamonds to your home. Now that you became the richest guy in the world, what will you do with the winged eyes? </div>
+<p onclick = layer("323211111","s41") class="unu">Kill them</p> 
+<p onclick = layer("323211111","s48") class="doi">Keep them as pets</p>
+<p onclick = layer("323211111","s47") class="trei">Gave them to the government</p>    </div>
+       
+       
+       
+       
+       
+       
+       
+       <div class="principal" id ="32321111alt">
+         <div class="poveste">Luckily no laser hits you and a new door opens. You find a giant room full of gold and blocks and diamonds. You can't transport them. </div>
+<p onclick = layer("32321111alt","s43") class="unu">Write your name on every diamond</p> 
+<p onclick = layer("32321111alt","s44") class="doi">Leave them and go home</p>
+<p onclick = layer("32321111alt","s40") class="trei">Take the biggest transportable diamond and go home</p>    </div>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+      
+       <div class="principal" id ="1">
+         <div class="poveste">You are inside. You see a little girl being attacked by a guy</div>
+<p onclick = layer("1","11") class="unu">I will destroy that jerk!</p> 
+<p onclick = layer("1","s2") class="doi">He must have his reasons i am going to help him</p>
+<p onclick = layer("1","1111") class="trei">I leave because i am a coward</p>    
+      </div>
+      
+      <div class="principal" id ="2">
+         <div class="poveste">You fulfilled your dream. But unluckly you got arrested</div>
+<p onclick = layer("2","21") class="unu"> Try to escape</p> 
+<p onclick = layer("2","22") class="doi">Wait</p>
+<p onclick = layer("2","22") class="trei">Think how stupid you are</p> 
+   
+   
+   
+   <div class="principal" id ="22">
+         <div class="poveste">They take you to the prison, before going into your cell they give you the right to a phone call. This could be your only chance</div>
+<p onclick = layer("22","221") class="unu">Call your best friend</p> 
+<p onclick = layer("22","s29") class="doi">Call police</p>
+<p onclick = layer("22","223") class="trei">Call a random person</p> 
+   
+   
+   
+   
+   <div class="principal" id ="223">
+         <div class="poveste">"Hi I'm just a guy who is going to prison if you don't help me. So help me!"
+         "—Ok i have 2 plans..."</div>
+<p onclick = layer("223","s30") class="unu">Choose the plan with monkeys and balloons</p> 
+<p onclick = layer("223","s31") class="doi">Choose the plan with planes and toothpaste</p>
+<p onclick = layer("223","s28") class="trei">"I have a better plan. Burn the prison"</p>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <div class="principal" id ="221">
+         <div class="poveste">"Dude you have to help me, i burned the school and now i am in prison". What will you tell him to do</div>
+<p onclick = layer("221","s28") class="unu">Burn the prison</p> 
+<p onclick = layer("221","s28") class="doi">They can't put me in prison if there is no prison</p>
+<p onclick = layer("221","s28") class="trei">Gasoline+Prison+Fire=Love</p> 
+   
+   
+   
+   
+   
+   <div class="principal" id ="21">
+         <div class="poveste">You steal a gun from one of the cops and shoot them to death</div>
+<p onclick = layer("21","212") class="unu">Shoot your cuffs and run away</p> 
+<p onclick = layer("21","s23") class="doi">Wait for more policemen to come and start a war</p>
+<p onclick = layer("21","213") class="trei">Become a gangster</p> 
+   
+   
+   <div class="principal" id ="213">
+         <div class="poveste">What will you do as a gangster</div>
+<p onclick = layer("213","s23") class="unu">Start a war with police</p> 
+<p onclick = layer("213","s26") class="doi">Steal cars, do missions for your friends, and sometimes robberies</p>
+<p onclick = layer("213","s27") class="trei">Kill the gangster king to take his place</p> 
+   
+   
+   
+   
+   
+   <div class="principal" id ="212">
+         <div class="poveste">You run away inside a forest with your gun, but a bear appears and starts to follow you</div>
+<p onclick = layer("212","s24") class="unu">Play dead</p> 
+<p onclick = layer("212","2122") class="doi">Tickle its armpits</p>
+<p onclick = layer("212","s24alt") class="trei">Shoot it</p> 
+   
+   
+   
+   
+   <div class="principal" id ="2122">
+         <div class="poveste">It starts laughing and dancing, while you run away. After walking for a while you see some short people building something</div>
+<p onclick = layer("2122","21221") class="unu">"They are just short engineers"</p> 
+<p onclick = layer("2122","21221") class="doi">"They are The Mechanic Dwarfs!"</p>
+<p onclick = layer("2122","s25alt") class="trei">Beat them and steal the machine</p> 
+   
+   
+   
+   
+   <div class="principal" id ="21221">
+         <div class="poveste">We really are dwarfs, who are building a time machine. We need to replace one piece, but my stupid boss thinks it's ready. If you can fix it, you can test it</div>
+<p onclick = layer("21221","s25alt1") class="unu">Test it anyway because you're lazy</p> 
+<p onclick = layer("21221","s25") class="doi">Replace the piece with a stick</p>
+<p class="trei">Find them a new piece, then test it</p>
+   
+ <div class="principal" id ="11">
+         <div class="poveste">Because of your fighting spirit you win the fight. The little girl thanks you, and give you a candy</div>
+<p onclick = layer("11","111") class="unu">I prefer money</p> 
+<p onclick = layer("11","1111") class="doi">Eat the candy</p>
+<p onclick = layer("11","1111") class="trei">Thank you!</p>   </div>
+
+<div class="principal" id ="111">
+         <div class="poveste">"I am sorry, i don't have any money"</div>
+<p onclick = layer("111","1111") class="unu">It's ok</p> 
+<p onclick = layer("111","1111") class="doi">Eat the candy</p>
+<p onclick = layer("111","s2") class="trei">Threaten her to give you money or she dies</p>   </div>
+
+
+
+
+<div class="principal" id ="1111">
+         <div  class="poveste">You start exploring the school and you find 2 doors </div>
+<p onclick = layer("1111","11111") class="unu">Go to the simple, wooden, unsuspected one</p> 
+<p onclick = layer("1111","11112") class="doi">Go to the steel door with a "Do not enter" sign</p>
+<p onclick = layer("1111","11113") class="trei">Keep exploring</p>   </div>
+
+
+
+
+<div class="principal" id ="11113">
+         <div  class="poveste">There is nothing else to explore beside a big hole in the school yard. You can't see its bottom </div>
+<p onclick = layer("11113","3") class="unu">Get out of this weird school and go somewhere else</p> 
+<p onclick = layer("11113","s20") class="doi">Jump inside the hole</p>
+<p onclick = layer("11113","s9") class="trei">Go home</p>   </div>
+
+
+
+
+
+<div class="principal" id ="11112">
+         <div  class="poveste">It turns out to be the teachers' lounge. You see some very old teachers talking in a corner, a young woman teacher and a 10 year old girl </div>
+<p onclick = layer("11112","s16") class="unu">Talk to the dinosaur teachers</p> 
+<p onclick = layer("11112","111122") class="doi">Talk to the woman teacher</p>
+<p onclick = layer("11112","111123") class="trei">Talk with the 10 year old</p>   </div>
+
+
+<div class="principal" id ="111122">
+         <div  class="poveste">You say "Hi" she says "OMG you are so handsome, i would make love with you right now, but i can't because i want to go to the church"</div>
+<p onclick = layer("111122","s17") class="unu">Make love with her</p> 
+<p onclick = layer("111122","s18") class="doi">Go to the church with her</p>
+<p onclick = layer("111122","111123") class="trei">Consider her a hallucination and talk to the 10 year old</p>   </div>
+
+
+
+
+<div class="principal" id ="111123">
+         <div  class="poveste">You say "Hi what are you doing here?" She tells you "I'm the legendary young teacher. I have a serum that keeps me young, but it alterated now making me regress in age. Help me"</div>
+<p onclick = layer("111123","1111231") class="unu">Give her the candy</p> 
+<p onclick = layer("111123","s19") class="doi">Kiss her to break the curse</p>
+<p onclick = layer("111123","11113alt") class="trei">"Now i understand the message written on the door, i better go away"</p>   </div>
+
+
+
+
+
+<div class="principal" id ="11113alt">
+         <div  class="poveste">You get out and keep walking, but there is nothing else to explore beside a big hole in the school yard. You can't see its bottom </div>
+<p onclick = layer("11113alt","3") class="unu">Get out of this weird school and go somewhere else</p> 
+<p onclick = layer("11113alt","s20") class="doi">Jump inside the hole</p>
+<p onclick = layer("11113alt","s9") class="trei">Go home</p>   </div>
+
+
+
+
+
+
+
+<div class="principal" id ="1111231">
+         <div  class="poveste">The sugar from the candy stopped the reversed aging process</div>
+<p onclick = layer("1111231","11113alt") class="unu">Now you won't die, you're welcome!</p> 
+<p onclick = layer("1111231","11113alt") class="doi">I think i was just tricked to give her a candy</p>
+<p onclick = layer("1111231","11112313") class="trei">If a candy stopped it, more candies shoud make her age again </p>   </div>
+
+
+
+<div class="principal" id ="11112313">
+         <div  class="poveste">To put your plan in action, you take her to a candy shop, but how many will you give her?</div>
+<p onclick = layer("11112313","s9alt") class="unu">only one more</p> 
+<p onclick = layer("11112313","s21") class="doi">20 candies</p>
+<p onclick = layer("11112313","s22") class="trei">500 candies </p>   </div>
+
+
+
+
+
+
+
+<div class="principal" id ="11111">
+         <div  class="poveste">The door opens and inside you can see a laboratory. On one of the tables is a weird device</div>
+<p onclick = layer("11111","111111") class="unu">Turn it on</p> 
+<p onclick = layer("11111","111112") class="doi">Turn it off</p>
+<p onclick = layer("11111","111111") class="trei">Just press a button, you don't know if it's on or off</p>   </div>
+
+<div class="principal" id ="111112">
+         <div  class="poveste">You can't, because it's already off</div>
+<p onclick = layer("111112","111111") class="unu">Turn it on</p> 
+<p onclick = layer("111112","111111") class="doi">Turn it up</p>
+<p onclick = layer("111112","111111") class="trei">Just press a button</p>   </div>
+
+<div class="principal" id ="111111">
+         <div  class="poveste">The device changes the surroundings making it looks like another dimension. There are wooden cliffs and stone trees. You see a standing kitten, on a cliff</div>
+<p onclick = layer("111111","1111111") class="unu">Pet the kitten</p> 
+<p onclick = layer("111111","1111111121111") class="doi">Ignore it and start exploring</p>
+<p onclick = layer("111111","1111113") class="trei">What the hell did just happened?</p>   </div>
+
+<div class="principal" id ="1111113">
+         <div  class="poveste">I just explained you. Pay attention!</div>
+<p onclick = layer("1111113","111111") class="unu">Sumimasen! Kurikaesu koto ga dekimasu ka?</p> 
+<p onclick = layer("1111113","111111112112213alt") class="doi">Who am i talking to?</p>
+<p onclick = layer("1111113","1111111") class="trei">I guess i will just pet that kitten, he looks mesmerizing</p>   </div>
+
+<div class="principal" id ="111111112112213alt">
+ <div  class="poveste">I'm the narrator of this text adventure game. I say what is happening to you after every choice you make</div>
+<p onclick = layer("111111112112213alt","alt") class="unu">Thank you!</p>
+<p onclick =     layer("111111112112213alt","1111111121122132") class="doi">I don't need you!</p>
+<p onclick = layer("111111112112213alt","1111111121122132") class="trei">So you know everything i do?! OMG! You pervert! Go away!</p>   </div>
+
+<div class="principal" id ="alt">
+ <div  class="poveste">What are you going to do now?</div>
+<p onclick = layer("alt","1111111") class="unu">Pet the kitten</p>
+<p onclick =     layer("alt","1111111121111") class="doi">Start exploring</p>
+<p  class="trei">Wait</p>   </div>
+
+<div class="principal" id ="1111111">
+         <div  class="poveste">"Hey! Stop doing that! I'm not a pet!"</div>
+<p onclick = layer("1111111","11111111") class="unu">Pet it with your full power</p> 
+<p onclick = layer("1111111","11111112") class="doi">You can talk?</p>
+<p onclick = layer("1111111","1111111121111") class="trei">Okay, sorry</p>   </div>
+
+<div class="principal" id ="11111112">
+         <div  class="poveste">"Of course i can. I am the fastest being in the universe. I learned all languages in less than a minute. "</div>
+<p onclick = layer("11111112","11111111212") class="unu">That's very cool</p> 
+<p onclick = layer("11111112","11111111212") class="doi">Asta e foarte mișto</p>
+<p onclick = layer("11111112","11111111212") class="trei">Das ist Fantastische</p>   </div>
+
+<div class="principal" id ="11111111">
+         <div  class="poveste">"If you pet me one more time, i kill you"</div>
+<p onclick = layer("11111111","s3") class="unu">Pet it with your fists</p> 
+<p onclick = layer("11111111","111111112") class="doi">Why don't you like petting?</p>
+<p onclick = layer("11111111","1111111121111") class="trei">It was fun, i leave now</p>   </div>
+
+<div class="principal" id ="111111112">
+ <div  class="poveste"> "I don't like being touched by strangers who can have dirty hands"</div>
+<p onclick = layer("111111112","1111111121") class="unu">Who are you?</p> 
+<p onclick = layer("111111112","11111111215") class="doi">Don't worry, i am clean, i can pet you</p>
+<p onclick = layer("111111112","11111111212") class="trei">Sorry, i just like petting things</p>   </div>
+
+<div class="principal" id ="11111111215">
+ <div  class="poveste"> "I can smell you. I won't let you touch me like that. I wasted enough time talking with you". He suddenly disappeared</div>
+<p onclick = layer("11111111215","1111111121111") class="unu">I think this place gives me hallucinations, i have to leave</p> 
+<p onclick = layer("11111111215","1111111121111") class="doi">Feel bad because you stink</p>
+<p onclick = layer("11111111215","1111111121111") class="trei">Start exploring</p>   </div>
+
+<div class="principal" id ="1111111121">
+ <div  class="poveste"> "I am Gigantikitten, the fastest being in all possible universes"</div>
+<p onclick = layer("1111111121","11111111211") class="unu">Do you know how can i go back to my universe?</p> 
+<p onclick = layer("1111111121","11111111212") class="doi">Nice to meet you!</p>
+<p onclick = layer("1111111121","11111111213") class="trei">Why isn't your name related to your speed?</p>   </div>
+
+<div class="principal" id ="11111111213">
+ <div  class="poveste"> "I haven't been always fast. I was an ordinary kitten, but one day my brother got caught by a bad man who boils cats. I couldn't save him, so i trained to be able to protect all the other cats!" </div>
+<p onclick = layer("11111111213","11111111211") class="unu">Nice story, but i need to go home, can you help me?</p> 
+<p onclick = layer("11111111213","s15") class="doi">I bet I'm faster than you!</p>
+<p onclick = layer("11111111213","1111111121111") class="trei">Consider the kitten a hallucination and start exploring</p>   </div>
+
+<div class="principal" id ="11111111212">
+ <div  class="poveste"> "I'll go to drink now. Tomorrow i have an important battle. You better leave this planet. It won't be any planet after the fight"</div>
+<p onclick = layer("11111111212","11111111211") class="unu">Can you help me get back to my universe?</p> 
+<p onclick = layer("11111111212","1111111121111") class="doi">Start exploring</p>
+<p onclick = layer("11111111212","1111111121111") class="trei">Consider the kitten a hallucination and start exploring</p>   </div>
+ 
+<div class="principal" id ="11111111211">
+ <div  class="poveste"> "You have to find the portal, but the chance it will transport you in the right place is just 0.0000000000..."</div>
+<p onclick = layer("11111111211","111111112111") class="unu">...</p> 
+<p onclick = layer("11111111211","111111112112") class="doi">no more boring numbers</p>
+<p onclick = layer("11111111211","111111112113") class="trei">Just take me there i'm feeling lucky</p>   </div>
+
+<div class="principal" id ="111111112112">
+ <div  class="poveste">Fine! Then i won't help you, go find it yourself!</div>
+<p onclick = layer("111111112112","1111111121111") class="unu">Ok, i can do it myself</p>
+<p onclick = layer("111111112112","1111111121122") class="doi">Come on! help me!</p>
+<p onclick = layer("111111112112","s3") class="trei">Pet him until he helps you</p>   </div>
+
+<div class="principal" id ="111111112113">
+ <div  class="poveste">He takes you to the portal almost instantly. But there is a big, red, glowing, ridiculously muscular thing blocking your way.</div>
+<p onclick = layer("111111112113","11111111211221") class="unu">Let the kitten fight</p>
+<p onclick = layer("111111112113","11111111211221") class="doi">Run like a coward</p>
+<p onclick = layer("111111112113","11111111211221") class="trei">Try to kick his nuts</p>   </div>
+
+<div class="principal" id ="1111111121122">
+ <div  class="poveste">This attempt of changing his mind was very successful. He takes you to the portal almost instantly. But there is a big, red, glowing, ridiculously muscular thing blocking your way.</div>
+<p onclick = layer("1111111121122","11111111211221") class="unu">Let the kitten fight</p>
+<p onclick = layer("1111111121122","11111111211221") class="doi">Run like a coward</p>
+<p onclick = layer("1111111121122","11111111211221") class="trei">Try to kick his nuts</p>   </div>
+
+<div class="principal" id ="11111111211221">
+ <div  class="poveste">You couldn't do anything because the fight already ended. It was too fast for you to see it, but it was so awesome! Do you want me to describe it?</div>
+<p onclick = layer("11111111211221","111111112112211") class="unu">Yes</p>
+<p onclick =     layer("11111111211221","111111112112212") class="doi">No</p>
+<p onclick = layer("11111111211221","111111112112213") class="trei">Who am i talking to?</p>   </div>
+
+<div class="principal" id ="111111112112213">
+ <div  class="poveste">I'm the narrator of this text adventure game. I say what is happening to you after every choice you make</div>
+<p onclick = layer("111111112112213","111111112112212") class="unu">Thank you!</p>
+<p onclick =     layer("111111112112213","1111111121122132") class="doi">I don't need you!</p>
+<p onclick = layer("111111112112213","1111111121122132") class="trei">So you know everything i do?! OMG! You pervert! Go away!</p>   </div>
+
+<div class="principal" id ="1111111121122132">
+ <div  class="poveste">Fine</div>
+<p onclick = layer("1111111121122132","nothing") class="unu"></p>
+<p onclick =     layer("1111111121122132","nothing") class="doi"></p>
+<p onclick = layer("1111111121122132","nothing") class="trei"></p>   </div>
+
+<div class="principal" id ="nothing">
+ <div  class="poveste"></div>
+<p  class="unu"></p>
+<p  class="doi"></p>
+<p  class="trei"></p>   </div>
+
+<div class="principal" id ="111111112112211">
+ <div  class="poveste">The red guy punched the kitten so hard it broke his head into atoms. Fortunately the kitten grabbed each atom with his hand and reconstructed his head, then punched the red guy until it broke into pieces so small that they don't make sense phisically, so he died. What are you going to do now? </div>
+<p onclick = layer("111111112112211","s9") class="unu">Go in the portal</p>
+<p onclick = layer("111111112112211","s13") class="doi">Pet the kitten</p>
+<p onclick = layer("111111112112211","s14") class="trei">Ask the kitten to be his partner</p>   </div>
+
+<div class="principal" id ="111111112112212">
+ <div class="poveste">What are you going to do now?</div>
+<p onclick = layer("111111112112212","s9") class="unu">Go in the portal</p>
+<p onclick = layer("111111112112212","s13") class="doi">Pet the kitten</p>
+<p onclick = layer("111111112112212","s14") class="trei">Ask the kitten to be his partner</p>   </div>
+
+<div class="principal" id ="111111112111">
+ <div  class="poveste">He continued to say a lot of 0s, then "1 percent"</div>
+<p onclick = layer("111111112111","1111111121111") class="unu">I will try anyway</p> 
+<p onclick = layer("111111112111","1111111121112") class="doi">"Wake up"</p>
+<p onclick = layer("111111112111","1111111121112") class="trei">"I didn't got what you said, but i don't really care, just take me there"</p>   </div>
+
+<div class="principal" id ="1111111121112">
+ <div  class="poveste">"Hey! So you weren't paying attention? I wanted to wait until tomorrow for the battle, but since you pissed me off, i will do it right now". Then he dissappears</div>
+<p onclick = layer("1111111121112","s12") class="unu">What battle?</p> 
+<p onclick = layer("1111111121112","s12") class="doi">Ok i will start to search for the portal now</p>
+<p onclick = layer("1111111121112","s12") class="trei">As long as I'm not involved in the battle i don't care</p>   </div>
+
+<div class="principal" id ="1111111121111">
+ <div  class="poveste">You start walking and searching for a way home. You see a fast car-like thing. The driver brings you to a giant building made from a wood cliff. Here is a portal. He asks you to pay with your hair</div>
+<p onclick = layer("1111111121111","11111111211111") class="unu">Shave your head</p> 
+<p onclick = layer("1111111121111","11111111211111") class="doi">Give him pubic hair</p>
+<p onclick = layer("1111111121111","11111111211113") class="trei">Why do you want my hair?</p>   </div>
+
+<div class="principal" id ="11111111211113">
+ <div  class="poveste">My boss needs DNA for research. He wants to speed up the cloning process</div>
+<p onclick = layer("11111111211113","111111112111131") class="unu">"I want a clone!"</p> 
+<p onclick = layer("11111111211113","111111112111131") class="doi">"I want to learn more!"</p>
+<p onclick = layer("11111111211113","11111111211111") class="trei">"Ok, i go to the portal now"</p>   </div>
+
+
+<div class="principal" id ="111111112111131">
+ <div  class="poveste">"Then go with me to his laboratory!" You arrive. There you can see a cloning incubator, some portals and some other vehicles </div>
+<p onclick = layer("111111112111131","s7") class="unu">Try to drive the vehicles</p> 
+<p onclick = layer("111111112111131","1111111121111312") class="doi">"Let's start cloning"</p>
+<p onclick = layer("111111112111131","1111111121111313") class="trei">Wait for his boss</p>   </div>
+
+<div class="principal" id ="1111111121111313">
+ <div  class="poveste">The boss came."Buch, why did you bring a stranger here?". He found out about the DNA. "Ok, i am doctor "Stan Aspacardin" are you clean?" </div>
+<p onclick = layer("1111111121111313","11111111211113131") class="unu">Yes i am very clean!</p> 
+<p onclick = layer("1111111121111313","11111111211113132") class="doi">Define clean!</p>
+<p onclick = layer("1111111121111313","11111111211113131") class="trei">I took a shower... once!</p>   </div>
+
+<div class="principal" id ="11111111211113132">
+ <div  class="poveste">You better get in the washing room. A dirty sample can ruin everything!</div>
+<p onclick = layer("11111111211113132","111111112111131321") class="unu">But i don't like water!</p> 
+<p onclick = layer("11111111211113132","111111112111131322") class="doi">Go in the washing room</p>
+<p onclick = layer("11111111211113132","111111112111131322") class="trei">Yay! Free cleaning!</p>   </div>
+
+<div class="principal" id ="111111112111131321">
+ <div  class="poveste">Don't worry! We have dry cleaning too! I will select it for you!</div>
+<p onclick = layer("111111112111131321","s5") class="unu">Go to the washing room</p> 
+<p onclick = layer("111111112111131321","s5") class="doi">Be grateful and go to the washing room</p>
+<p onclick = layer("111111112111131321","s5") class="trei">Dance to show how grateful you are, then go to the washing room</p>   </div>
+
+<div class="principal" id ="111111112111131322">
+ <div  class="poveste">How do you want to be cleaned?</div>
+<p onclick = layer("111111112111131322","1111111121111313221") class="unu">By a sanitizer tsunami</p> 
+<p onclick = layer("111111112111131322","1111111121111313222") class="doi">By water and soap</p>
+<p onclick = layer("111111112111131322","s1") class="trei">By 1000 licking cats</p>   </div>
+
+<div class="principal" id ="1111111121111313221">
+ <div  class="poveste">The tsunami cleaned you well. You felt some pain but now you are ready to start cloning</div>
+<p onclick = layer("1111111121111313221","11111111211113132211") class="unu">Put some hair inside the incubator</p> 
+<p onclick = layer("1111111121111313221","11111111211113132211") class="doi">Cut some hair, and put it in the incubator</p>
+<p onclick = layer("1111111121111313221","11111111211113132211") class="trei">Let doctor cut your hair, to put it in the incubator</p>   </div>
+
+<div class="principal" id ="1111111121111313222">
+ <div  class="poveste">Poweful jets of water and soap starts hitting you. Now you are clean and ready to start cloning</div>
+<p onclick = layer("1111111121111313222","11111111211113132211") class="unu">Put some hair inside the incubator</p> 
+<p onclick = layer("1111111121111313222","11111111211113132211") class="doi">Cut some hair, and put it in the incubator</p>
+<p onclick = layer("1111111121111313222","11111111211113132211") class="trei">Let doctor cut your hair, to put it in the incubator</p>   </div>
+
+<div class="principal" id ="11111111211113132211">
+ <div  class="poveste">The process went well, and after 30 minutes, your clone came out</div>
+<p onclick = layer("11111111211113132211","111111112111131322111") class="unu">Say hi to yourself</p> 
+<p onclick = layer("11111111211113132211","111111112111131322111") class="doi">Hug yourself</p>
+<p onclick = layer("11111111211113132211","111111112111131322111") class="trei">Say hi to your clone</p>   </div>
+
+<div class="principal" id ="111111112111131322111">
+ <div  class="poveste">Your clone is happy to see you. You become friends very quick. Stan thanks you, but he doesn't need 2 of you. So one of you must go home. What are you going to do now?</div>
+<p onclick = layer("111111112111131322111","s10") class="unu">Push your clone through the portal</p> 
+<p onclick = layer("111111112111131322111","s9") class="doi">Go through the portal</p>
+<p onclick = layer("111111112111131322111","s11") class="trei">Take your clone, and go together through the portal</p>   </div>
+
+
+<div class="principal" id ="11111111211113131">
+ <div  class="poveste">Ok, then go to the cloning incubator and put some hair inside</div>
+<p onclick = layer("11111111211113131","111111112111131311") class="unu">Put some hair there</p> 
+<p onclick = layer("11111111211113131","111111112111131312") class="doi">"Actually i want to talk about that portals!"</p>
+<p onclick = layer("11111111211113131","111111112111131313") class="trei">"Forget it, let's drive one of that things over there ! "</p>   </div>
+
+<div class="principal" id"" ="111111112111131313">
+ <div  class="poveste">This are my expensive, collection cars. I worked a lot to get them. Don't even think about driving one of them!</div>
+<p onclick = layer("111111112111131313","s6") class="unu">Think about driving one of them</p> 
+<p onclick = layer("111111112111131313","111111112111131311") class="doi">Ok, then let's start cloning</p>
+<p onclick = layer("111111112111131313","s7") class="trei">Drive one of them</p>   </div>
+
+<div class="principal" id ="111111112111131312">
+ <div  class="poveste">This are my best creation. They can take you to any dimension by examining you with a precision of 80% </div> 
+<p onclick = layer("111111112111131312","1111111121111313121") class="unu">Thanks,but I'd rather stay here. It's way cooler!</p> 
+<p onclick = layer("111111112111131312","s9") class="doi">"I will take the risk"</p>
+<p onclick = layer("111111112111131312","s9") class="trei">"I want to go home, please, let me use one!"</p>   </div>
+
+<div class="principal" id ="1111111121111313121">
+ <div  class="poveste">Allright. If you prove you are smart enough you can stay here. So put your hair there! </div> 
+<p onclick = layer("1111111121111313121","11111111211113131") class="unu">I am worthy!</p> 
+<p onclick = layer("1111111121111313121","11111111211113131") class="doi">"Actually, i think i better take a shower, i want to be sure it will work"</p>
+<p onclick = layer("1111111121111313121","11111111211113131") class="trei">I have high marks in physical education and drawing. Of course i am smart!</p>   </div>
+
+<div class="principal" id ="111111112111131311">
+ <div  class="poveste">You put your hair, and doctor Stan pushed some buttons."There is an error, you aren't so clean after all"</div>
+<p onclick = layer("111111112111131311","1111111121111313111") class="unu">You must have very high standards</p> 
+<p onclick = layer("111111112111131311","1111111121111313111") class="doi">I only wash when it rains</p>
+<p onclick = layer("111111112111131311","1111111121111313111") class="trei">When i stink it's easier to use perfume than showering</p>   </div>
+
+<div class="principal" id ="1111111121111313111">
+ <div  class="poveste">A weird creature came out of the incubator. It's approaching you</div>
+<p onclick = layer("1111111121111313111","s8") class="unu">Try to fight it</p> 
+<p onclick = layer("1111111121111313111","s8") class="doi">Try to run away</p>
+<p onclick = layer("1111111121111313111","11111111211113123") class="trei">What is this thing?</p>   </div>
+
+<div class="principal" id ="1111111121111312">
+ <div  class="poveste">You put your hair in a slot, then pushed some buttons randomly. A weird creature came out of the incubator. The boss came</div>
+<p onclick = layer("1111111121111312","s8") class="unu">Try to fight it</p> 
+<p onclick = layer("1111111121111312","s8") class="doi">Try to run away</p>
+<p onclick = layer("1111111121111312","11111111211113123") class="trei">"What is this thing?"</p>   </div>
+
+ <div class="principal" id ="11111111211113123">
+ <div  class="poveste">This is a mutant clone. That's what happens when you put dirty samples of DNA. I will check it. By the way what is your name?</div>
+<p onclick = layer("11111111211113123","111111112111131231") class="unu">Just call me Dangerous Lobster</p> 
+<p onclick = layer("11111111211113123","111111112111131231") class="doi">John Johnson</p>
+<p onclick = layer("11111111211113123","111111112111131231") class="trei">I didn't know i need a name</p>   </div>
+
+<div class="principal" id ="111111112111131231">
+ <div  class="poveste">That's weird. But this thing is even weirder. It looks like it has 2 sides: a male side and a female side. Is pregnant with each of the sides with a smaller representation of the same clone. But only the male side of the inner clones can get further pregnant</div>
+<p onclick = layer("111111112111131231","1111111121111312311") class="unu">WTF?</p> 
+<p onclick = layer("111111112111131231","1111111121111312311") class="doi">I was thinking the same but I let you explain</p>
+<p onclick = layer("111111112111131231","1111111121111312311") class="trei">Cool!</p>   </div>
+
+<div class="principal" id ="1111111121111312311">
+ <div  class="poveste">My gun room is next to the generator. Take one and shoot it! </div>
+<p onclick = layer("1111111121111312311","11111111211113123111") class="unu">Take a pistol</p> 
+<p onclick = layer("1111111121111312311","11111111211113123112") class="doi">Take a laser gun</p>
+<p onclick = layer("1111111121111312311","11111111211113123112") class="trei">Take the biggest gun you can find</p>   </div>
+
+<div class="principal" id ="11111111211113123111">
+ <div  class="poveste">You shoot it. It was a tranquilizer pistol.Now the clone is asleep."Good job! You seem to know how to handle hard situations. Would you like to stay here and be my partner?" </div>
+<p onclick = layer("11111111211113123111","s9") class="unu">No, i just want to go home</p> 
+<p onclick = layer("11111111211113123111","s10") class="doi">Of course! My life was boring anyway</p>
+<p onclick = layer("11111111211113123111","s10") class="trei">Yes, but only if there's pizza in this dimension</p>   </div>
+
+
+<div class="principal" id ="11111111211113123112">
+ <div  class="poveste">You destroy the clone! But half of the laboratory too."Look at what you have done! I thought you could help me, but you are not smart enough. You should go home"  </div>
+<p onclick = layer("11111111211113123112","s9") class="unu">Ok, that's what i wanted from begging</p> 
+<p onclick = layer("11111111211113123112","s9") class="doi">It's not my fault, your gums are too strong</p>
+<p onclick = layer("11111111211113123112","s9") class="trei">I didn't like this stupid dimension anyway</p> </div>
+
+<div class="principal" id ="11111111211111">
+ <div  class="poveste">After paying you attempt to enter but a big, red, glowing, ridiculously muscular thing blocks your way. "I am Aloxarid, the god of this universe, if you want to pass you have to defeat me!"</div>
+<p onclick = layer("11111111211111","s4") class="unu">"I know karate"</p> 
+<p onclick = layer("11111111211111","s4") class="doi">"My fists has no mind. They breaks everything in the way"</p>
+<p onclick = layer("11111111211111","s4") class="trei">"I am not going to fight that thing. I am not crazy"</p>   </div>
+
+
+
+
+
+<div class = "sfârșit" id = "s48">
+<div class = "final">You have fun with your money and pets a couple of days, until you forget to feed them, and they feed themselves with you</div>
+<div onclick = showend("s48","de48","36") class = "eeb">36</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div> 
+
+
+
+
+
+<div class = "sfârșit" id = "s47">
+<div class = "final">I'm sure they will make only funny experiments on them</div>
+<div onclick = showend("s47","de47","48") class = "eeg">48</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div> 
+
+
+
+
+<div class = "sfârșit" id = "s46">
+<div class = "final">You bring it home and escape undetected. Now you just have to find the right combination among 999998 other fake ones, and you might become rich</div>
+<div onclick = showend("s46","de46","40") class = "eed">40</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div> 
+
+
+
+
+<div class = "sfârșit" id = "s45">
+<div class = "final">While you were struggling to find the combination, the rich man enters. You try to attack him but he draws out a gun and shoots you</div>
+<div onclick = showend("s45","de45","35") class = "eeb">35</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div> 
+
+
+
+<div class = "sfârșit" id = "s45alt">
+<div class = "final">The rich man hears the "ftang" sounds and comes with his gun to investigate. You can't hear him but it's right behind you</div>
+<div onclick = showend("s45alt","de45","35") class = "eeb">35</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div> 
+
+<div class = "sfârșit" id = "s44">
+<div class = "final">You go home without taking anything. That's not a bad choice, you can always change your mind</div>
+<div onclick = showend("s44","de44","39") class = "eed">39</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div> 
+
+
+
+<div class = "sfârșit" id = "s43">
+<div class = "final">Good job, now the police will know who to arrest!</div>
+<div onclick = showend("s43","de43","34") class = "eeb">34</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div> 
+
+
+
+
+
+
+<div class = "sfârșit" id = "s42">
+<div class = "final">You go home with your new pet. You can always change your mind, as the tunmel is already dug. You have fun with your pet for the next few hours, until it gets hungry and eats you.</div>
+<div onclick = showend("s42","de42","33") class = "eeb">33</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div> 
+
+
+
+
+
+<div class = "sfârșit" id = "s41">
+<div class = "final">You killed them and bought a cat instead. Afterwards your life consisted in buying all the expensive things you could find. Cars, islands, planes, houses...</div>
+<div onclick = showend("s41","de41","47") class = "eeg">47</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div> 
+
+
+
+
+<div class = "sfârșit" id = "s40">
+<div class = "final">You manage to bring a 7 kg diamond to your home. Good job, when you'll sell it you'll become a billionaire</div>
+<div onclick = showend("s40","de40","46") class = "eeg">46</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div> 
+
+
+
+<div class = "sfârșit" id = "s39alt1">
+<div class = "final">You say "Hi!", it says "Die!". Sorry bro!</div>
+<div onclick = showend("s39","de39","32") class = "eeb">32</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div> 
+
+
+
+
+<div class = "sfârșit" id = "s39alt">
+<div class = "final">The winged eye absorbs all the lasers beam, defending you. He doesn't seem to receive any damage from them. You hear the robot voice again saying "YOU CHEATER! YOU CAN'T ABSORB LASERS, YOU HAVE TO AVOID THEM!". Then, a giant laser beam shoots through the room obliterating you.</div>
+<div onclick = showend("s39","de39","32") class = "eeb">32</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div> 
+
+
+
+<div class = "sfârșit" id = "s39">
+<div class = "final">A hatch from the floor opens. A perfectly normal duck comes out. You grab it trying to defend against the lasers, but it gets easily roasted. It smells nice, but you don't have time to eat, because you're next</div>
+<div onclick = showend("s39","de39","32") class = "eeb">32</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div> 
+
+
+
+<div class = "sfârșit" id = "s38">
+<div class = "final">It sumed up to a total of 3 gallons. Good job, now you have a treat for the next match </div>
+<div onclick = showend("s38","de38","45") class = "eeg">45</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+<div class = "sfârșit" id = "s37">
+<div class = "final">2 bottles were enough to make you drunk. Next day you wake up in a gas station, cuffed to a shaved bear, conjured by blue liquid and with a tatoo on your arm spelling "M&B"</div>
+<div onclick = showend("s37","de37","38") class = "eed">38</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+<div class = "sfârșit" id = "s36">
+<div class = "final">It was easy. You just followed her orders, found the safe and stole the $10000000 from it</div>
+<div onclick = showend("s36","de36","44") class = "eeg">44</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+<div class = "sfârșit" id = "s35">
+<div class = "final">You managed to climb the wall, to avoid the dogs and all of this not being detected by cams. However you did it for nothing because you can't see any way to enter the building</div>
+<div onclick = showend("s35","de35","31") class = "eeb">31</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+<div class = "sfârșit" id = "s34">
+<div class = "final">"You came here for inheritance? I won't give you anything, i will never die!". Then a gate opens, with aggressive dogs coming to eat you. </div>
+<div onclick = showend("s34","de34","30") class = "eeb">30</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+<div class = "sfârșit" id = "s33">
+<div class = "final">While you were dancing you feel your back penetrated by a knife. It looks like one of them survived.</div>
+<div onclick = showend("s33","de33","29") class = "eeb">29</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+<div class = "sfârșit" id = "s32">
+<div class = "final">The armor is way too heavy for your weak legs. You immediately fall down unable to move and the drunk guys slaughter you</div>
+<div onclick = showend("s32","de32","28") class = "eeb">28</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+<div class = "sfârșit" id = "s31">
+<div class = "final">5 planes come to drop some items. One with a pool, one with hydrogen peroxide, one with soap, one with potassium iodate and one with food coloring. Mixed together this ingredients make the biggest elephant tooth paste. You try to find a way out in the madness, but you get burned</div>
+<div onclick = showend("s31","de31","27") class = "eeb">27</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+<div class = "sfârșit" id = "s30">
+<div class = "final">You see a bunch of monkeys with baloons attached on their waists floating over the fence. Suddenly the monkeys feel a very strong urge to pop the baloons. They take some arrows out of nowhere and destroy the baloons. The plan failed</div>
+<div onclick = showend("s30","de30","26") class = "eeb">26</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+
+
+
+<div class = "sfârșit" id = "s29">
+<div class = "final">"— Police there! What is your emergency?
+— I am in a prison, i want to get out!
+— I know, we put you inside, now stay there!" </div>
+<div onclick = showend("s29","de29","25") class = "eeb">25</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+<div class = "sfârșit" id = "s28">
+<div class = "final">He tries to put the prison on fire, but he gets arrested by the guardians </div>
+<div onclick = showend("s28","de28","24") class = "eeb">24</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+<div class = "sfârșit" id = "s27">
+<div class = "final"> "GANGSTER KING, I CHALLENGE YOU TO A DUEL!" unfortunately you don't get to see him as you get killed by his subordinates 5 minutes after</div>
+<div onclick = showend("s27","de27","23") class = "eeb">23</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+<div class = "sfârșit" id = "s26">
+<div class = "final">You steal your first car. It's a pretty cool one, but you don't get to enjoy it too much. You collide imediatly with another one and die</div>
+<div onclick = showend("s26","de26","22") class = "eeb">22</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+<div class = "sfârșit" id = "s25">
+<div class = "final">After putting the stick in place you enter inside the machine the dwarfs push some buttons, the machine makes some weird noises, and then explodes </div>
+<div onclick = showend("s25","de25","21") class = "eeb">21</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+<div class = "sfârșit" id = "s25alt1">
+<div class = "final">You enter inside the machine the dwarfs push some buttons, the machine makes some weird noises, and then explodes </div>
+<div onclick = showend("s25","de25","21") class = "eeb">21</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+<div class = "sfârșit" id = "s25alt">
+<div class = "final">You beat them easily because you have the size advantage. Because of your curiosity you press all the buttons to test the machine. It starts making weird noises, then explodes!</div>
+<div onclick = showend("s25","de25","21") class = "eeb">21</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+<div class = "sfârșit" id = "s24alt">
+<div class = "final">The bullet barely deals any damage to the bear, unfortunately he deals plenty of damage to you!</div>
+<div onclick = showend("s24","de24","20") class = "eeb">20</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+<div class = "sfârșit" id = "s24">
+<div class = "final">You show your best acting skills to convince the bear you are dead, but it starts playing with your body. You panic, and scream, and ruin your role. Try taking more acting lessons!</div>
+<div onclick = showend("s24","de24","20") class = "eeb">20</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+<div class = "sfârșit" id = "s23">
+<div class = "final">You manage to shoot 3 more cops but you were clearly outnumbered. You get shot and die</div>
+<div onclick = showend("s23","de23","19") class = "eeb">19</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+<div class = "sfârșit" id = "s22">
+<div class = "final">After she eats only around 60 of them, you notice that she is getting older very fast. You try to get her home to the serum, but she gets strangled by her shirt as it became to small for her. The pedestrians think that you are a murderer, and call the police</div>
+<div onclick = showend("s22","de22","18") class = "eeb">18</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+
+
+<div class = "sfârșit" id = "s21">
+<div class = "final">She begins to age rapidly, so she takes off her clothes as they are getting too small for her. You reach her home in less than 10 minutes, where she takes the right dose of serum. She is very thankful, and you decide to get married</div>
+<div onclick = showend("s21","de21","43") class = "eeg">43</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+
+<div class = "sfârșit" id = "s20">
+<div class = "final">With a brave look on your face you jumped inside. After 20 seconds of falling you reach the bottom. There is trash which reduced the shock of falling, but after 5 weeks you die of starvation  </div>
+<div onclick = showend("s20","de20","17") class = "eeb">17</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+<div class = "sfârșit" id = "s19">
+<div class = "final">You kiss her but nothing happens. You keep kissing her until the other teachers notice and call the police</div>
+<div onclick = showend("s19","de19","16") class = "eeb">16</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+
+
+<div class = "sfârșit" id = "s18">
+<div class = "final">You go to the church, and you get bored instantly. You want to talk with her, but she is no longer there. You try to get out but this makes the crazy old ladies there to think you are the devil and they rip you into pieces</div>
+<div onclick = showend("s18","de18","15") class = "eeb">15</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+
+
+<div class = "sfârșit" id = "s17">
+<div class = "final">You felt great, but it was a hallucination. You were making love with a skeleton left there by the biology teacher. You realize you are crazy and go to the hospital </div>
+<div onclick = showend("s17","de17","14") class = "eeb">14</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+
+
+<div class = "sfârșit" id = "s16">
+<div class = "final">As you come close you see 2 signs. First says "DINO PARK", second says "DON'T FEED THE DINOSAURS". It was too late, because they fed themselves with you </div>
+<div onclick = showend("s16","de16","13") class = "eeb">13</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+<div class = "sfârșit" id = "s15">
+<div class = "final">CHALLENGE ACCEPTED! The kitten ran so fast he made a shockwave that killed you and destroyed 40% of the planet. Don't stay near the kitten when he is competing!</div>
+<div onclick = showend("s15","de15","12") class = "eeb">12</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+<div class = "sfârșit" id = "s14">
+<div class = "final">He accepted. He took you to distant beautiful galaxies near quasars and black holes. Unfortunately your body felt apart so you couldn't see them </div>
+<div onclick = showend("s14","de14","11") class = "eeb">11</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+<div class = "sfârșit" id = "s13">
+<div class = "final">Because of the high speed he travelled, kitten's temperature reached over 60000°C. You vaporized and died </div>
+<div onclick = showend("s13","de13","10") class = "eeb">10</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+<div class = "sfârșit" id = "s12">
+<div class = "final">The battle started after 5 seconds. Suddenly the planet exploded, and you died</div>
+<div onclick = showend("s12","de12","9") class = "eeb">9</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+<div class = "sfârșit" id = "s11">
+<div class = "final">You returned home, to your boring life. Except it's not boring anymore because you have a clone. You 2 started a full business with trickery and magic shows!</div>
+<div onclick = showend("s11","de11","42") class = "eeg">42</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+<div class = "sfârșit" id = "s10">
+<div class = "final">Your life consisted ever since of cool adventures, hot alien girls, and lots of money!</div>
+<div onclick = showend("s10","de10","41") class = "eeg">41</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+
+
+<div class = "sfârșit" id = "s9alt1">
+<div class = "final">You return home, like a coward, continuing to live your boring life</div>
+<div onclick = showend("s9","de9","37") class = "eed">37</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+<div class = "sfârșit" id = "s9alt">
+<div class = "final">Again, nothing happened. You realise that you were tricked by a little girl, so you return home, to your boring life</div>
+<div onclick = showend("s9","de9","37") class = "eed">37</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+<div class = "sfârșit" id = "s9">
+<div class = "final">You returned home, to your boring life. Perhaps it could have been cool to stay more.</div>
+<div onclick = showend("s9","de9","37") class = "eed">37</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+<div class = "sfârșit" id = "s8">
+<div class = "final">Nice try, but the clone caught you and threw you inside a generator, where you melted</div>
+<div onclick = showend("s8","de8","8") class = "eeb">8</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+<div class = "sfârșit" id = "s7">
+<div class = "final">You pushed some buttons randomly, and you managed to turn it on. Unfortunately you didn't manage to control it too. You hit some stone trees and died</div>
+<div onclick = showend("s7","de7","7") class = "eeb">7</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+<div class = "sfârșit" id = "s6">
+<div class = "final">You thought about it, and it was very cool. But doctor Stan read your mind, then blew it with a little gun.</div>
+<div onclick = showend("s6","de6","6") class = "eeb">6</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+<div class = "sfârșit" id = "s5">
+<div class = "final">The dry cleaning started by extracting every molecule of water from the room. Including the ones in your body. Then it started the cleaning process.</div>
+<div onclick = showend("s5","de5","5") class = "eeb">5</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+<div class = "sfârșit" id = "s4">
+<div class = "final">"NONSENSE, I WILL KILL YOU" That is the last thing you heard after the red guy destroyed you with one hit</div>
+<div onclick = showend("s4","de4","4") class = "eeb">4</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+<div class = "sfârșit" id = "s3">
+<div class = "final">He warned you. You shouldn't have taken his warning lightly. He cut you with his claws in bilions of pieces, in less than a second.</div>
+<div onclick = showend("s3","de3","3") class = "eeb">3</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+<div class = "sfârșit" id = "s2">
+<div class = "final">It wasn't a good idea. She shoot you</div>
+<div onclick = showend("s2","de2","2") class = "eeb">2</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+<div class = "sfârșit" id = "s1">
+<div class = "final">Surprisingly 1000 cats came out of a hatch running towards you. Unfortunately those were aggressive scratching cats, that kept scratching you until you became little meat pieces</div>
+<div onclick = showend("s1","de1","1") class = "eeb">1</div>
+<div onclick = ma() id = "ma">Try again</div>
+</div>
+
+
+
+
+
+
+
+
+
+ <div id = "acc">
+ 
+ <div id = "accb1">
+ 
+ <div id = "titl">Bad Endings</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he1">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he2">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he3">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he4">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he5">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he6">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he7">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he8">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he9">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he10">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he11">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he12">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he13">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he14">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he15">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he16">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he17">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he18">?</div>
+ 
+ 
+ <div onclick = showend2("acc","de1") class = "e" id = "e1">1</div>
+ <div onclick = showend2("acc","de2") class = "e" id = "e2">2</div>
+ <div onclick = showend2("acc","de3") class = "e" id = "e3">3</div>
+ <div onclick = showend2("acc","de4") class = "e" id = "e4">4</div>
+ <div onclick = showend2("acc","de5") class = "e" id = "e5">5</div>
+ <div onclick = showend2("acc","de6") class = "e" id = "e6">6</div>
+ <div onclick = showend2("acc","de7") class = "e" id = "e7">7</div>
+ <div onclick = showend2("acc","de8") class = "e" id = "e8">8</div>
+ <div onclick = showend2("acc","de12") class = "e" id = "e9">9</div>
+ <div onclick = showend2("acc","de13") class = "e" id = "e10">10</div>
+ <div onclick = showend2("acc","de14") class = "e" id = "e11">11</div>
+ <div onclick = showend2("acc","de15") class = "e" id = "e12">12</div>
+ <div onclick = showend2("acc","de16") class = "e" id = "e13">13</div>
+ <div onclick = showend2("acc","de17") class = "e" id = "e14">14</div>
+ <div onclick = showend2("acc","de18") class = "e" id = "e15">15</div>
+ <div onclick = showend2("acc","de19") class = "e" id = "e16">16</div>
+ <div onclick = showend2("acc","de20") class = "e" id = "e17">17</div>
+ <div onclick = showend2("acc","de22") class = "e" id = "e18">18</div>
+ 
+ 
+ <div onclick = bad2n() class ="bad2n" id = "bad2n">Next</div>
+ 
+ 
+ </div>
+ 
+ <div id = "accb2">
+ 
+ <div id = "titl">Bad Endings</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he19">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he20">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he21">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he22">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he23">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he24">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he25">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he26">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he27">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he28">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he29">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he30">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he31">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he32">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he33">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he34">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he35">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he36">?</div>
+ 
+ 
+ 
+ <div onclick = showend2("acc","de23") class = "e" id = "e19">19</div>
+ <div onclick = showend2("acc","de24") class = "e" id = "e20">20</div>
+ <div onclick = showend2("acc","de25") class = "e" id = "e21">21</div>
+ <div onclick = showend2("acc","de26") class = "e" id = "e22">22</div>
+ <div onclick = showend2("acc","de27") class = "e" id = "e23">23</div>
+ <div onclick = showend2("acc","de28") class = "e" id = "e24">24</div>
+ <div onclick = showend2("acc","de29") class = "e" id = "e25">25</div>
+ <div onclick = showend2("acc","de30") class = "e" id = "e26">26</div>
+ <div onclick = showend2("acc","de31") class = "e" id = "e27">27</div>
+ <div onclick = showend2("acc","de32") class = "e" id = "e28">28</div>
+ <div onclick = showend2("acc","de33") class = "e" id = "e29">29</div>
+ <div onclick = showend2("acc","de34") class = "e" id = "e30">30</div>
+ <div onclick = showend2("acc","de35") class = "e" id = "e31">31</div>
+ <div onclick = showend2("acc","de39") class = "e" id = "e32">32</div>
+ <div onclick = showend2("acc","de42") class = "e" id = "e33">33</div>
+ <div onclick = showend2("acc","de43") class = "e" id = "e34">34</div>
+ <div onclick = showend2("acc","de45") class = "e" id = "e35">35</div>
+ <div onclick = showend2("acc","de48") class = "e" id = "e36">36</div>
+ 
+ 
+ <div onclick = decentn() class ="decentn" id = "decentn">Next</div>
+ 
+ <div onclick = bad1p() class ="bad1p" id = "bad1p">Prev</div>
+ 
+ 
+ 
+ </div>
+ 
+ <div id = "accd">
+ 
+ <div id = "titl">Decent Endings</div>
+ 
+  <div onclick = showend2("acc","notyetde") class = "he" id = "he37">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he38">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he39">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he40">?</div>
+ 
+ 
+ 
+ <div onclick = showend2("acc","de9") class = "e" id = "e37">37</div>
+ <div onclick = showend2("acc","de37") class = "e" id = "e38">38</div>
+ <div onclick = showend2("acc","de39") class = "e" id = "e39">39</div>
+ <div onclick = showend2("acc","de46") class = "e" id = "e40">40</div>
+ 
+ <div onclick = goodn() class ="goodn" id = "goodn">Next</div>
+ 
+ <div onclick = bad2p() class ="bad2p" id = "bad2p">Prev</div>
+ 
+ </div>
+ 
+ 
+ <div id = "accg">
+ 
+ <div id = "titl">Good Endings</div>
+ 
+  <div onclick = showend2("acc","notyetde") class = "he" id = "he41">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he42">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he43">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he44">?</div>
+ 
+  <div onclick = showend2("acc","notyetde") class = "he" id = "he45">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he46">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he47">?</div>
+ 
+ <div onclick = showend2("acc","notyetde") class = "he" id = "he48">?</div>
+ 
+ <div onclick = showend2("acc","de10") class = "e" id = "e41">41</div>
+ <div onclick = showend2("acc","de11") class = "e" id = "e42">42</div>
+ <div onclick = showend2("acc","de21") class = "e" id = "e43">43</div>
+ <div onclick = showend2("acc","de36") class = "e" id = "e44">44</div>
+ <div onclick = showend2("acc","de38") class = "e" id = "e45">45</div>
+ <div onclick = showend2("acc","de40") class = "e" id = "e46">46</div>
+ <div onclick = showend2("acc","de41") class = "e" id = "e47">47</div>
+ <div onclick = showend2("acc","de47") class = "e" id = "e48">48</div>
+ 
+ <div onclick = decentp() class ="decentp" id = "decentp">Prev</div>
+ 
+ 
+ </div>
+ 
+ 
+ 
+ 
+ <div onclick = back() class ="bac" id = "back">Back</div>
+ 
+ 
+ 
+ </div>
+ 
+ </div>
+ 
+ 
+ <div onclick = disend("acc","notyetde") class="de" id = "notyetde"></div>
+ <div onclick = disend("acc","notyetde") class="ede"  id = "enotyetde"><br /><br /><br />???</div>
+ 
+ 
+ 
+ <div onclick = disend("s1","de1") class="de" id = "de1"></div>
+ <div onclick = disend("s1","de1") class="ede" id = "ede1"><br /><br /><br />No animals were harmed during this ending!</div>
+ 
+ 
+ <div onclick = disend("s2","de2") class="de" id = "de2"></div>
+ <div onclick = disend("s2","de2") class="ede" id = "ede2"><br /><br /><br />You died being shot by a little girl</div>
+ 
+ 
+ <div onclick = disend("s3","de3") class="de" id = "de3"></div>
+ <div onclick = disend("s3","de3") class="ede" id = "ede3"><br /><br /><br />Never underestimate a kitten!</div>
+ 
+ 
+  <div onclick = disend("s4","de4") class="de" id = "de4"></div>
+ <div onclick = disend("s4","de4") class="ede" id = "ede4"><br /><br /><br />You better avoid red glowing muscular guys!</div>
+ 
+ 
+ 
+ 
+  <div onclick = disend("s5","de5") class="de"  id = "de5"></div>
+ <div onclick = disend("s5","de5")  class="ede"id = "ede5"><br /><br /><br />After all you became a very clean dead body!</div>
+ 
+ 
+ 
+ <div onclick = disend("s6","de6") class="de"  id = "de6"></div>
+ <div onclick = disend("s6","de6")  class="ede"id = "ede6"><br /><br /><br />When he told you not to think about it, he really meant it</div>
+ 
+ 
+  <div onclick = disend("s7","de7") class="de" id = "de7"></div>
+ <div onclick = disend("s7","de7") class="ede" id = "ede7"><br /><br /><br />Which video game did you learn driving from?</div>
+ 
+ 
+ 
+  <div onclick = disend("s8","de8") class="de" id = "de8"></div>
+ <div onclick = disend("s8","de8") class="ede" id = "ede8"><br /><br /><br />Does this count as killing yourself?</div>
+ 
+  <div onclick = disend("s9","de9") class="de" id = "de9"></div>
+ <div onclick = disend("s9","de9") class="ede" id = "ede9"><br /><br /><br />Home sweet home!</div>
+ 
+  <div onclick = disend("s10","de10") class="de" id = "de10"></div>
+ <div onclick = disend("s10","de10") class="ede" id = "ede10"><br /><br /><br />Who needs earth anymore?</div>
+ 
+ 
+  <div onclick = disend("s11","de11") class="de" id = "de11"></div>
+ <div onclick = disend("s11","de11") class="ede" id = "ede11"><br /><br /><br />You became your best friend!</div>
+ 
+ 
+  <div onclick = disend("s12","de12") class="de" id = "de12"></div>
+ <div onclick = disend("s12","de12") class="ede" id = "ede12"><br /><br /><br />Damn dude! You missed the battle!</div>
+ 
+ 
+  <div onclick = disend("s13","de13") class="de" id = "de13"></div>
+ <div onclick = disend("s13","de13") class="ede" id = "ede13"><br /><br /><br />Petting that kitten is never a good idea</div>
+ 
+ 
+  <div onclick = disend("s14","de14") class="de" id = "d14"></div>
+ <div onclick = disend("s14","de14") class="ede" id = "ede14"><br /><br /><br />He apreciated your determination though</div>
+ 
+ 
+ 
+ 
+  <div onclick = disend("s15","de15") class="de" id = "de15"></div>
+ <div onclick = disend("s15","de15") class="ede" id = "ede15"><br /><br /><br />Stay 500000 km away and you'll be fine</div>
+ 
+ 
+  <div onclick = disend("s16","de16") class="de" id = "de16"></div>
+ <div onclick = disend("s16","de16") class="ede" id = "ede16"><br /><br /><br />Stay away from old teachers</div>
+ 
+ 
+  <div onclick = disend("s17","de17") class="de" id = "de17"></div>
+ <div onclick = disend("s17","de17") class="ede" id = "ede17"><br /><br /><br />Maybe you'll find some crazy friends</div>
+ 
+ 
+ 
+ 
+  <div onclick = disend("s18","de18") class="de" id = "de18"></div>
+ <div onclick = disend("s18","de18") class="ede" id = "ede18"><br /><br /><br />Don't mess with old ladies</div>
+ 
+ 
+ 
+ 
+  <div onclick = disend("s19","de19") class="de" id = "de19"></div>
+ <div onclick = disend("s19","de19") class="ede" id = "ede19"><br /><br /><br />Now you are known as the Pedo Torpedo</div>
+ 
+ 
+ 
+  <div onclick = disend("s20","de20") class="de" id = "de20"></div>
+ <div onclick = disend("s20","de20") class="ede" id = "ede20"><br /><br /><br />Wrong hole buddy</div>    
+ 
+ 
+ 
+ <div onclick = disend("s21","de21") class="de" id = "de21"></div>
+ <div onclick = disend("s21","de21") class="ede" id = "ede21"><br /><br /><br />It's good you didn't rush it. You know her since she was a little girl</div>    
+ 
+ 
+ 
+ <div onclick = disend("s22","de22") class="de" id = "de22"></div>
+ <div onclick = disend("s22","de22") class="ede" id = "ede22"><br /><br /><br />Nobody believed your story in prison</div>    
+ 
+ 
+ 
+ <div onclick = disend("s23","de23") class="de" id = "de23"></div>
+ <div onclick = disend("s23","de23") class="ede" id = "ede23"><br /><br /><br />You just didn't play enough shooters</div>    
+ 
+ 
+ 
+ 
+ <div onclick = disend("s24","de24") class="de" id = "de24"></div>
+ <div onclick = disend("s24","de24") class="ede" id = "ede24"><br /><br /><br />A bear killed you</div>    
+ 
+ 
+ 
+ 
+ <div onclick = disend("s25","de25") class="de" id = "de25"></div>
+ <div onclick = disend("s25","de25") class="ede" id = "ede25"><br /><br /><br />You found out what the machine does: kills you</div>    
+ 
+ 
+ 
+ 
+ <div onclick = disend("s26","de26") class="de" id = "de26"></div>
+ <div onclick = disend("s26","de26")    class="ede" id = "ede26"><br /><br /><br />Driving is easier on keyboard</div>    
+ 
+ 
+ 
+ 
+ <div onclick = disend("s27","de27") class="de" id = "de27"></div>
+ <div onclick = disend("s27","de27") class="ede" id = "ede27"><br /><br /><br />You were not made to be a gangster</div>    
+ 
+ 
+ 
+ 
+ <div onclick = disend("s28","de28") class="de" id = "de28"></div>
+ <div onclick = disend("s28","de28") class="ede" id = "ede28"><br /><br /><br />"Damn, burning prison would have worked perfectly!"</div>    
+ 
+ 
+ 
+ 
+ <div onclick = disend("s29","de29") class="de" id = "de29"></div>
+ <div onclick = disend("s29","de29") class="ede" id = "ede29"><br /><br /><br />You can't call police to get you out of jail</div>    
+ 
+ 
+ 
+ 
+ <div onclick = disend("s30","de30") class="de" id = "de30"></div>
+ <div onclick = disend("s30","de30") class="ede" id = "ede30"><br /><br /><br />Monkeys and balloons never team up</div>    
+ 
+ 
+ 
+ 
+ <div onclick = disend("s31","de31") class="de" id = "de31"></div>
+ <div onclick = disend("s31","de31") class="ede" id = "ede31"><br /><br /><br />I bet you didn't know that thing can get really hot</div>    
+ 
+ 
+  <div onclick = disend("s32","de32") class="de" id = "de32"></div>
+ <div onclick = disend("s32","de32") class="ede" id = "ede32"><br /><br /><br />Never skip leg day</div>    
+ 
+ 
+ 
+ 
+  <div onclick = disend("s33","de33") class="de" id = "de33"></div>
+ <div onclick = disend("s33","de33") class="ede" id = "ede33"><br /><br /><br />Don't celebrate too early</div>    
+ 
+ 
+ 
+  <div onclick = disend("s34","de34") class="de" id = "de34"></div>
+ <div onclick = disend("s34","de34") class="ede" id = "ede34"><br /><br /><br />You got eaten by aggressive dogs</div>    
+ 
+ 
+  <div onclick = disend("s35","de35") class="de" id = "de35"></div>
+ <div onclick = disend("s35","de35") class="ede" id = "ede35"><br /><br /><br />Now do all this parkour backwards! Can you?</div>    
+ 
+ 
+ 
+ 
+  <div onclick = disend("s36","de36") class="de" id = "de36"></div>
+ <div onclick = disend("s36","de36") class="ede" id = "ede36"><br /><br /><br />It is cool to be a tool</div>    
+ 
+ 
+ 
+ 
+  <div onclick = disend("s37","de37") class="de" id = "de37"></div>
+ <div onclick = disend("s37","de37") class="ede" id = "ede37"><br /><br /><br />Hey, that's not an ending! That's a new beggining!</div>    
+ 
+ 
+ 
+ 
+  <div onclick = disend("s38","de38") class="de" id = "de38"></div>
+ <div onclick = disend("s38","de38") class="ede" id = "ede38"><br /><br /><br />Don't drink them all at once!</div>    
+ 
+ 
+ 
+ 
+  <div onclick = disend("s39","de39") class="de" id = "de39"></div>
+ <div onclick = disend("s39","de39") class="ede" id = "ede39"><br /><br /><br />You got roasted by a laser</div>    
+ 
+ 
+ 
+ 
+  <div onclick = disend("s40","de40") class="de" id = "de40"></div>
+ <div onclick = disend("s40","de40") class="ede" id = "ede40"><br /><br /><br />Good job for not being too greedy</div>    
+ 
+ 
+ 
+ 
+ 
+  <div onclick = disend("s41","de41") class="de" id = "de41"></div>
+ <div onclick = disend("s41","de41") class="ede" id = "ede41"><br /><br /><br />Enjoy your new luxury life</div>    
+ 
+ 
+ 
+ 
+  <div onclick = disend("s42","de42") class="de" id = "de42"></div>
+ <div onclick = disend("s42","de42") class="ede" id = "ede42"><br /><br /><br />Don't forget to buy eye food</div>    
+ 
+ 
+ <div onclick = disend("s43","de43") class="de" id = "de43"></div>
+ <div onclick = disend("s43","de43") class="ede" id = "ede43"><br /><br /><br />Don't write your name on other people's stuff</div>    
+ 
+ 
+ <div onclick = disend("s44","de44") class="de" id = "de44"></div>
+ <div onclick = disend("s44","de44") class="ede" id = "ede44"><br /><br /><br />You chose to go home instead of going big</div>    
+ 
+ 
+ <div onclick = disend("s45","de45") class="de" id = "de45"></div>
+ <div onclick = disend("s45","de45") class="ede" id = "ede45"><br /><br /><br />You died being shot by an old man</div>    
+ 
+ 
+ 
+ <div onclick = disend("s46","de46") class="de" id = "de46"></div>
+ <div onclick = disend("s46","de46") class="ede" id = "ede46"><br /><br /><br />Better SAFE than sorry</div>    
+ 
+ 
+ 
+ 
+ <div onclick = disend("s47","de47") class="de" id = "de47"></div>
+ <div onclick = disend("s47","de47") class="ede" id = "ede47"><br /><br /><br />Science rulez!</div>    
+ 
+ 
+ 
+ <div onclick = disend("s48","de48") class="de" id = "de48"></div>
+ <div onclick = disend("s48","de48") class="ede" id = "ede48"><br /><br /><br />You were too busy being rich to feed your pets</div>    
+ 
+ 
+ 
+ 
+ <div onclick = sett() id = "sett">Settings</div>
+ <div id = "settings">
+ <div id = "stitle">Settings</div>
+ <div id = "lang">Language:</div>
+ <div onclick = rom() id = "rom">Română</div>
+ <div onclick = eng() id = "eng">English</div> 
+ <div onclick = oks() id = "oks">Ok</div>
+ <div id = "cf">Background Color:</div>
+ <svg id = "svg"  width="440" height="500">
+<polygon id = "vvi" onclick = next() points="320 310, 320 350, 345 330" 
+  style="fill: green; stroke:black;" />
+<polygon id = "vvp" onclick = prev() points="170 310, 170 350, 145 330" 
+  style="fill: green; stroke:black;" />
+</svg>
+<div id = "color">Green</div>
+ </div>
+ <script src="./static/game.js"></script>
+    </body>
+</html>
